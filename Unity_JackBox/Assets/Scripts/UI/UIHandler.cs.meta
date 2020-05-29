@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 59c4ef6575c27bb4ebe1eb19334dffee
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - TeamsLogoTransform: {instanceID: 0}
+  - teamLogoPrefab: {fileID: 1564744950206819736, guid: 5e87b6fd6d1c036499f29bf2f79b1421,
+      type: 3}
+  - notificationPrefab: {fileID: 3808674300464359355, guid: f1aa61748fffb6b4e9fd7d6222ed94e9,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

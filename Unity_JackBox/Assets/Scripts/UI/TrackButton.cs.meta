@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 23ece1f4b15bfbe4690083b10dab6fd4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - trackUnchecked: {fileID: 21300000, guid: 233b2b4d833788345b642f999d5114f0, type: 3}
+  - trackChecked: {fileID: 21300000, guid: a1b34f2b65f13a545b4f0355dd28d388, type: 3}
+  executionOrder: -1100
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
