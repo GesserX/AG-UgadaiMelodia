@@ -41,7 +41,7 @@ public class CategoryEditor : MonoBehaviour
         FileHandler.SaveConfig(category);
         StartCoroutine(PrintMessage("Успешно сохранено!"));
         }
-        catch(System.FormatException ex)
+        catch (System.FormatException)
         {
             StartCoroutine(PrintMessage("Ошибка! Заполните все поля!"));
         }

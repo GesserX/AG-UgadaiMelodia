@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using UnityEngine;
 using UnityEngine.Networking;
 
 
 [RequireComponent(typeof(AudioSource))]
 public class MusicPlayer : MonoBehaviour
-{
+{    
     AudioSource audioSource;
     bool isPaused = false;
+
     void Start()
     {        
         audioSource = GetComponent<AudioSource>();
@@ -24,7 +26,7 @@ public class MusicPlayer : MonoBehaviour
     }
 
     public void PlayTrack(string trackPath, float time)
-    { 
+    {    
         StartCoroutine(PlayAudio( "file:///" + trackPath, time));
     }
 

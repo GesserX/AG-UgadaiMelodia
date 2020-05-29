@@ -25,6 +25,8 @@ public class TrackEditor : MonoBehaviour
     public string answerTrackPath;
     public string questionTrackPath;
 
+    static string lastPath = Application.streamingAssetsPath;
+
     // Start is called before the first frame update    
     void Start()
     {
@@ -37,14 +39,14 @@ public class TrackEditor : MonoBehaviour
     {
         FileBrowser.SetFilters(true, new FileBrowser.Filter( "Треки", ".wav"));
         FileBrowser.SetDefaultFilter(".wav");    
-        FileBrowser.ShowLoadDialog((path) => { LoadQuestion(path); }, null, false, Application.streamingAssetsPath, "Выберите трек", "Загрузить");
+        FileBrowser.ShowLoadDialog((path) => { LoadQuestion(path); lastPath = path;}, null, false, lastPath, "Выберите трек", "Загрузить");
     }
 
     void ClickAnswer()
     {
         FileBrowser.SetFilters(true, new FileBrowser.Filter( "Треки", ".wav"));
         FileBrowser.SetDefaultFilter(".wav");    
-        FileBrowser.ShowLoadDialog((path) => { LoadAnswer(path); }, null, false, Application.streamingAssetsPath, "Выберите трек", "Загрузить");
+        FileBrowser.ShowLoadDialog((path) => { LoadAnswer(path); lastPath = path; }, null, false, lastPath, "Выберите трек", "Загрузить");
 
     }
 
@@ -68,6 +70,7 @@ public class TrackEditor : MonoBehaviour
     {
         questionText.text = "Трек вопрос";
         answerText.text = "Трек ответ";
+        points.text = "";
         questionTrackPath = null;
         answerTrackPath = null;
         tags.text = null;

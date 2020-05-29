@@ -16,7 +16,7 @@ Unity_JackBox/Assets/StreamingAssets/db/Песни из мультфильмов
 Unity_JackBox/Assets/StreamingAssets/db/Песни из мультфильмов3.json.meta
 Unity_JackBox/Assets/StreamingAssets/db/Песни из мультфильмов4.json
 Unity_JackBox/Assets/StreamingAssets/db/Песни из мультфильмов4.json.meta
-Unity_JackBox/Library/AnnotationManager
+Unity_JackBox/Library/
 Unity_JackBox/Library/APIUpdater/project-dependencies.graph
 Unity_JackBox/Library/ArtifactDB
 Unity_JackBox/Library/ArtifactDB-lock
@@ -8231,3 +8231,27 @@ Unity_JackBox/Library/Style.catalog
 Unity_JackBox/Library/webgl_cache/linkresult_wasm_9DD305EF0BFE4813AC4CDDABAC7EB8DB/build.js
 Unity_JackBox/Library/webgl_cache/linkresult_wasm_9DD305EF0BFE4813AC4CDDABAC7EB8DB/build.js.symbols
 Unity_JackBox/Library/webgl_cache/linkresult_wasm_9DD305EF0BFE4813AC4CDDABAC7EB8DB/build.wasm
+Unity_JackBox/Assets/NuGet.config
+Unity_JackBox/Assets/NuGet.config.meta
+Unity_JackBox/Assets/NuGet.meta
+Unity_JackBox/Assets/NuGet/Editor.meta
+Unity_JackBox/Assets/NuGet/Editor/DotNetZip.dll.meta
+Unity_JackBox/Assets/NuGet/Editor/NugetForUnity.dll.meta
+Unity_JackBox/Assets/NuGet/LICENSE
+Unity_JackBox/Assets/NuGet/LICENSE.meta
+Unity_JackBox/Assets/NuGet/README.pdf
+Unity_JackBox/Assets/NuGet/README.pdf.meta
+Unity_JackBox/Assets/NuGet/Resources.meta
+Unity_JackBox/Assets/NuGet/Resources/defaultIcon.png
+Unity_JackBox/Assets/NuGet/Resources/defaultIcon.png.meta
+Unity_JackBox/Assets/StreamingAssets/db/Песни из мультиков.json
+Unity_JackBox/Assets/StreamingAssets/db/Песни из мультиков.json.meta
+Unity_JackBox/Assets/StreamingAssets/db/Песни из мультиков2.json
+Unity_JackBox/Assets/StreamingAssets/db/Песни из мультиков2.json.meta
+Unity_JackBox/Assets/StreamingAssets/db/Песни из мультиков3.json
+Unity_JackBox/Assets/StreamingAssets/db/Песни из мультиков3.json.meta
+Unity_JackBox/Assets/StreamingAssets/db/Песни из мультиков4.json
+Unity_JackBox/Assets/StreamingAssets/db/Песни из мультиков4.json.meta
+Unity_JackBox/Temp/__Backupscenes/0.backup
+Unity_JackBox/Temp/UnityLockfile
+Unity_JackBox/Temp/UnityTempFile-2d10a0be6068dfb4d997318bb01c6491
