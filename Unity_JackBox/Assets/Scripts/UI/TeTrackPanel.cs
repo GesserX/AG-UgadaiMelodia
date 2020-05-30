@@ -5,7 +5,7 @@ using SimpleFileBrowser;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TrackEditor : MonoBehaviour
+public class TeTrackPanel : MonoBehaviour
 {
     [SerializeField]
     Button questionButton;
@@ -37,17 +37,16 @@ public class TrackEditor : MonoBehaviour
 
     void ClickQuestion()
     {
-        FileBrowser.SetFilters(true, new FileBrowser.Filter( "Треки", ".wav"));
-        FileBrowser.SetDefaultFilter(".wav");    
+        FileBrowser.SetFilters(true, new FileBrowser.Filter( "Треки",  ".mp3", ".wav", ".ogg"));
+        FileBrowser.SetDefaultFilter(".mp3");    
         FileBrowser.ShowLoadDialog((path) => { LoadQuestion(path); lastPath = path;}, null, false, lastPath, "Выберите трек", "Загрузить");
     }
 
     void ClickAnswer()
     {
-        FileBrowser.SetFilters(true, new FileBrowser.Filter( "Треки", ".wav"));
-        FileBrowser.SetDefaultFilter(".wav");    
+        FileBrowser.SetFilters(true, new FileBrowser.Filter( "Треки", ".mp3", ".wav", ".ogg"));
+        FileBrowser.SetDefaultFilter(".mp3");    
         FileBrowser.ShowLoadDialog((path) => { LoadAnswer(path); lastPath = path; }, null, false, lastPath, "Выберите трек", "Загрузить");
-
     }
 
     void LoadAnswer(string path)

@@ -8,7 +8,7 @@ public class CategoryEditor : MonoBehaviour
 {
     public InputField categoryName;
     [SerializeField]
-    public TrackEditor[] tracks;
+    public TeTrackPanel[] tracks;
 
     public Button saveCategory;
     public Button loadCategory;
